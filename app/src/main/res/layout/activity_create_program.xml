@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_program"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="6"
+    android:orientation="vertical"
+    tools:context="com.example.mft12.organizer.CreateProgram">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+
+
+    </LinearLayout>
+
+    <!--<HorizontalScrollView-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="horizontal">-->
+        <!--<LinearLayout-->
+            <!--android:id="@+id/TasksLayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageButton-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--app:srcCompat="@mipmap/circle"-->
+                <!--android:id="@+id/imageButton"-->
+                <!--android:scaleType="fitCenter"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--/>-->
+
+            <!---->
+
+
+        <!--</LinearLayout>-->
+
+
+    <!--</HorizontalScrollView>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="2"-->
+        <!--android:orientation="vertical"-->
+        <!--android:weightSum="6">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:weightSum="5">-->
+
+
+            <!--<EditText-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="4"-->
+                <!--android:hint="Add Task"-->
+                <!--android:id="@+id/TaskField"-->
+                <!--android:textAlignment="center" />-->
+
+            <!--<Button-->
+                <!--android:text="ADD"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/AddTask"-->
+                <!--android:layout_weight="1"/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="4"-->
+            <!--android:weightSum="6">-->
+
+            <!--<Button-->
+                <!--android:text="Repetition"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/Repetition"-->
+                <!--android:layout_weight="1" />-->
+            <!--<Space-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"/>-->
+
+            <!--<Button-->
+                <!--android:text="Timing"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/Timing"-->
+                <!--android:layout_weight="1" />-->
+
+            <!--<Space-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"/>-->
+            <!--<Button-->
+                <!--android:text="Priority"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/Priority"-->
+                <!--android:layout_weight="1" />-->
+            <!--<Space-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
